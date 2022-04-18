@@ -24,13 +24,13 @@ MONGO_DB_USERNAME = 'storm'
 MONGO_DB_PASSWORD = '98765432.zx'
 ITEM_PIPELINES = {
     'Scrapy_MeiShi.pipelines.ScrapyMeiShiPipeline': 300,
+    'crawlab.pipelines.CrawlabMongoPipeline': 888
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Scrapy_MeiShi (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
